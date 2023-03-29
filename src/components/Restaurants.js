@@ -35,7 +35,7 @@ export default function Restaurants({ curLocation, activeFuncName, data }) {
 
   return (
     <MapContainer
-      center={[40.82302903, -73.93414657]}
+      center={[47.96049135732173, 99.34279938295205]}
       zoom={5}
       scrollWheelZoom={false}
     >

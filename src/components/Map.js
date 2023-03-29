@@ -9,7 +9,13 @@ export default function Map() {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <Marker position={[47.919, 106.91759995544909]}>
-        <Popup>Sukhbaatar Square</Popup>
+        <Popup>
+          Sukhbaatar Square <h1>sasa</h1>
+        </Popup>
+      </Marker>
+      {/* 49.03785712500702, 97.0576433545422 */}
+      <Marker position={[49.03785712500702, 97.0576433545422]}>
+        <Popup>Zavkhan</Popup>
       </Marker>
     </MapContainer>
   );

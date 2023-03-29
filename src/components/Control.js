@@ -22,11 +22,14 @@ export default function Control() {
   }, []);
 
   function showPosition(position) {
+    console.log(position);
     const lat = position.coords.latitude;
     const long = position.coords.longitude;
 
-    // setCurLocation({ lat, long });
-    setCurLocation({ lat: 40.82302903, long: -73.93414657 });
+    setCurLocation({ lat, long });
+    // setCurLocation({ lat: 40.82302903, long: -73.93414657 });
+
+    // console.log(la/t, l);
     setLoading(false);
 
     console.log("Latitude: " + lat);
